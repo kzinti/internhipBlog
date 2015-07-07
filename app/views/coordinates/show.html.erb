@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @coordinate.lat %>
+</p>
+
+<p>
+  <strong>Lon:</strong>
+  <%= @coordinate.lon %>
+</p>
+
+<p>
+  <strong>Timestamp:</strong>
+  <%= @coordinate.timestamp %>
+</p>
+
+<%= link_to 'Edit', edit_coordinate_path(@coordinate) %> |
+<%= link_to 'Back', coordinates_path %>
